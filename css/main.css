@@ -2,6 +2,27 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+.ib:focus {
+  outline: 3px solid #fff;
+  background-color: #000;
+  color: #fff;
+}
+
+.masthead a {
+  border-bottom: .2em solid rgba(255, 255, 255, .6);
+
+  color: #fff;
+  text-decoration: none;
+
+  background-color: #000;
+  filter: contrast(100%);
+}
+
+.masthead a:hover {
+  background-color: rgba(180, 220, 255, .3);
+  border-color: #fafafa;
+}
+
 .section-dark {
   background-color: #000308;
   color: #fff;
@@ -31,6 +52,7 @@ html {
 
 .masthead {
   background-image: url("../images/galaxy-evolution-explorer.jpg");
+  font-weight: bold;
 }
 
 .masthead-title {
@@ -50,17 +72,6 @@ html {
   transform: translate(.07em, .07em);
 
   color: rgba(180, 220, 255, .6);
-}
-
-.masthead a {
-  border-bottom: .2em solid rgba(255, 255, 255, .6);
-
-  color: #fff;
-  text-decoration: none;
-}
-
-.masthead a:hover {
-  background-color: rgba(180, 220, 255, .3);
 }
 
 .techniques {
